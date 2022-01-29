@@ -1,0 +1,21 @@
+### Key datatype
+
+"apple": "I am a red fruit"
+1: "This is my roll number"
+
+--- # differentiates documents
+### lists
+
+- apple
+- mango
+- Apple # YAML is case sensitive. Hence, apple and Apple are different
+- banana
+
+---
+### Block style
+
+cities:
+  - new delhi
+  - jaipur
+  - mumbai
+... # document has ended
